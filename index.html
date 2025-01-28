@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      
+
+    }
+    .container {
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .menu-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .menu-item .details {
+      flex: 1;
+      margin-left: 10px;
+    }
+    .menu-item .details h3 {
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+    }
+    .menu-item .details p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #777;
+    }
+    .menu-item .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #2c7a7b;
+    }
+
+    img {
+      position: relative; /* Permite mover a imagem manualmente */
+      left: 162px; /* Move para a direita (+200px no eixo X) */
+      top: 0px; /* Move para baixo (+50px no eixo Y) */
+    }
+    .line {
+      display: inline-block; /* Mantém a largura da linha no tamanho do conteúdo */
+      border-bottom: 2px solid #333; /* Cria a linha */
+      padding-bottom: 5px; /* Espaço entre o texto e a linha */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logot.png" alt="Descrição da imagem" width="200" >
+    <h1>Cardápio</h1>
+    <h1><span class="line">Fogazzas Salgadas</span></h1>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Muçarela</h3>
+        <p>muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+    
+    <div class="menu-item">   
+      <div class="details">
+        <h3>Portuguesa</h3>
+        <p>presunto, ervilha, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item">  
+      <div class="details">
+        <h3>Calabresa</h3>
+        <p>Calabresa, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Bauru</h3>
+        <p>presunto, muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Frango</h3>
+        <p>frango, muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Milho</h3>
+        <p>Milho, muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Carne moida</h3>
+        <p>Carne moida,muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 20,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Carne seca</h3>
+        <p>carne seca, muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 28,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>palmito</h3>
+        <p>palmito, muçarela, tomate e orégano.</p>
+      </div>
+      <span class="price">R$ 21,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>4 queijos</h3>
+        <p>parmesão, provolone, catupiry muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$24,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Escarola</h3>
+        <p>escarola, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 19,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Atum</h3>
+        <p>atum, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 24,00</span>
+    </div>
+
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Champignon</h3>
+        <p>Champignon, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 23,00</span>
+    </div>
+
+    
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Aliche</h3>
+        <p>Aliche, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 23,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Camarão</h3>
+        <p>Camarão, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 29,00</span>
+    </div>
+
+    
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Tomate seco</h3>
+        <p>Tomate seco, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 23,00</span>
+    </div>
+
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Siri</h3>
+        <p>Siri, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 28,00</span>
+    </div>
+
+    
+    <div class="menu-item"> 
+      <div class="details">
+        <h3>Especial</h3>
+        <p>Calabresa, portuguesa, frango, palmito , catupiry, muçarela, tomate e orégano</p>
+      </div>
+      <span class="price">R$ 44,00</span>
+    </div>
+
+  </div>
+
+  <h1><span class="line">Fogazzas Doces</span></h1>
+
+
+  <div class="menu-item">    
+    <div class="details">
+      <h3>Chocoalte</h3>
+      <p>Chocolate meio amargo com Chocolate ao leite.</p>
+    </div>
+    <span class="price">R$ 19,00</span>
+  </div>
+
+  <div class="menu-item">    
+    <div class="details">
+      <h3>Nutela</h3>
+      <p></p>
+    </div>
+    <span class="price">R$ 24,00</span>
+  </div>
+
+  
+  <div class="menu-item">    
+    <div class="details">
+      <h3>Romeu e julieta</h3>
+      <p>queijo Fresco e goiabada</p>
+    </div>
+    <span class="price">R$ 19,00</span>
+  </div>
+
+  <div class="menu-item">    
+    <div class="details">
+      <h3>Doce de leite</h3>
+      <p></p>
+    </div>
+    <span class="price">R$ 19,00</span>
+  </div>
+
+</div>
+  <h1><span class="line">Bolinhos/kibe e outros</span></h1>
+  <div class="menu-item">
+      
+    <div class="details">
+      <h3>kibe</h3>
+      <p>Kibe muçarera ou catupiry</p>
+    </div>
+    <span class="price">R$ 13,00</span>
+  </div>
+  <div class="menu-item">
+  <div class="details">
+    <h3>kibe assado</h3>
+    <p>kibe assado acompanha muçarela ou catupiry e alho frito</p>
+  </div>
+  <span class="price">R$ 16,50</span>
+</div>
+
+<div class="menu-item">
+<div class="details">
+  <h3>Bolinho de queijo
+  </h3>
+  <p></p>
+</div>
+<span class="price">R$ 9,00</span>
+</div>
+
+<div class="menu-item">
+<div class="details">
+  <h3>bolinho de carne</h3>
+  <p></p>
+</div>
+<span class="price">R$ 9,00</span>
+</div>
+
+<div class="menu-item">
+<div class="details">
+  <h3>bolinho de Bacalhau</h3>
+  <p></p>
+</div>
+<span class="price">R$ 13,00</span>
+</div>
+<div class="menu-item">
+<div class="details">
+  <h3>bolinho de carne seca</h3>
+  <p></p>
+</div>
+<span class="price">R$ 12,00</span>
+</div>
+
+<div class="menu-item">
+<div class="details">
+  <h3>bolinho de Camarão</h3>
+  <p></p>
+</div>
+<span class="price">R$ 13,00</span>
+</div>
+
+<div class="menu-item">
+<div class="details">
+  <h3>coxinha</h3>
+  <p>coxinha catupiry ou sem</p>
+</div>
+<span class="price">R$ 9,00</span>
+</div>
+
+</div>
+  <h1><span class="line">Porções</span></h1>
+  <div class="menu-item">
+      
+    <div class="details">
+      <h3>Porção de beringela</h3>
+      <p></p>
+    </div>  
+    <span class="price">R$ 20,00</span>
+  </div>
+
+</div>
+<div class="menu-item">
+      
+    <div class="details">
+      <h3>Porção de batata em conserva</h3>
+      <p></p>
+    </div>
+    <span class="price">R$ 19,00</span>
+  </div>
+</div>
+<div class="menu-item">
+      
+    <div class="details">
+      <h3>Porção de picles</h3>
+      <p></p>
+    </div>
+    <span class="price">R$ 20,00</span>
+  </div>
+</div>
+<div class="menu-item">
+      
+    <div class="details">
+      <h3>Porção de Mexilhão</h3>
+      <p>meia ou inteira</p>
+    </div>
+    <span class="price">(inteira) R$ 62,00 / (meia) R$ 32,00</span>
+  </div>
+</div>
+
+</body>
+</html>
